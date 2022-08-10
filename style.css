@@ -1,0 +1,58 @@
+* {
+  padding: 5px;
+  margin: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#timer {
+  font-size: 20px;
+  display: flex;
+  justify-content: right;
+}
+h1 {
+  display: flex;
+  justify-content: right;
+}
+
+h2 {
+  color: black;
+}
+
+#question-1,
+#question-2,
+#question-3,
+#question-4,
+#question-5,
+#finish-quiz,
+#correct-message1,
+#incorrect-message1,
+#correct-message2,
+#incorrect-message2,
+#correct-message3,
+#incorrect-message3,
+#correct-message4,
+#incorrect-message4,
+#correct-message5,
+#incorrect-message5 {
+  display: none;
+}
+#finish-quiz {
+  color: rgb(241, 15, 192);
+}
+#correct-message1,
+#correct-message2,
+#correct-message3,
+#correct-message4,
+#correct-message5 {
+  color: green;
+  font-size: large;
+}
+#incorrect-message1,
+#incorrect-message2,
+#incorrect-message3,
+#incorrect-message4,
+#incorrect-message5 {
+  color: red;
+  font-size: large;
+}
